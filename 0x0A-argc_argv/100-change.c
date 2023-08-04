@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-* main - Calculates the minimum number of coins required to 
+* main - Calculates the minimum number of coins required to
 * create change for a given amount of money
 *@argc: Count of arguments
 *@argv: Collection of arguments in an array
