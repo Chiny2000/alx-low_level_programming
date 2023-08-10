@@ -1,21 +1,13 @@
 #include <unistd.h>
 
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
 int _putchar(char c)
 {
-    return write(1, &c, 1);
+	return (write(1, &c, 1));
 }
-
-int main()
-{
-    char character = 'A';
-    _putchar(character); // Calls the custom _putchar function to print the character
-
-    return 0;
-}
-Just make sure that the _putchar function definition is included before the point where you intend to use it, as shown in the example above.
-
-
-
-
-
-
