@@ -4,7 +4,8 @@
 #include <string.h>
 
 /**
-* _print - Shifts a string to the left by one position and then prints the updated string.
+* _print - Shifts a string to the left by one position
+* and then prints the updated string.
 * @str: string to move
 * @l: size of string
 *
@@ -22,7 +23,7 @@ int isNumber(char *s)
 }
 
 /**
-* mul  Performs character multiplication with a string and stores the result in the 'dest' variable.
+* mul  Performs character multiplication with a string
 * @n: char to multiply
 * @num: string to multiply
 * @num_index: the final index in 'num' that is not NULL
