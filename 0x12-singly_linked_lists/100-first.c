@@ -3,10 +3,10 @@
 void startupFunction(void) __attribute__((constructor));
 
 /**
- * startupFunction -Displays output prior to the 
- * execution of the main function.
- *
- */
+* startupFunction -Displays output prior to the
+* execution of the main function.
+*
+*/
 void startupFunction(void)
 {
 printf("You're beat! and yet, you must allow,\n");
