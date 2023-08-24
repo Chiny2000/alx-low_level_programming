@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * list_len - Provides the count of elements 
+ * list_len - Provides the count of elements
  * present within the linked list
  *
  * @h: starting point of the list
