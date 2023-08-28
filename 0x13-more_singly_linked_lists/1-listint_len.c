@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "lists.h"
 
-/*
-*listint_len - calculates and provides the count of elements within a linked list
+/**
+* listint_len - Calculate the number of elements
 * @h: linked list of type listint_t to traverse
 * next - Reference to the subsequent node in the list
 * Return: number of nodes
