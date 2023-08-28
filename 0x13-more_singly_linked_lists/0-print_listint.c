@@ -3,20 +3,19 @@
 
 /**
  * print_listint -  displays the elements present in a linked list
- * @headnode: It takes the headnode as input
- * Return: the count of nodes
+ * @h: It takes the headnode as input
+ * Return: the count
  */
 
-int print_listint(const listint_t *headnode)
+size_t print_listint(const listint_t *h)
 {
-int count = 0;
-
-while (headnode)
+size_t count = 0;
+while (h != NULL)
 {
-printf("%d\n", headnode->n);
+printf("%d\n", h->n);
+h = h->next;
 count++;
-headnode = headnode->next;
 }
-
 return (count);
 }
+
