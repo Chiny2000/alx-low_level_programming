@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * get_bit - Yields the bit's value at a specified index within a decimal number.
+ * get_bit - Yields the bit's value at a specified
+ * index within a decimal number.
  * @ns: number to search
  * @indexb: index of the bit
  *
@@ -14,7 +15,7 @@ int bit_value;
 if (indexb > 63)
 return (-1);
 
-bit_value = (ns>> indexb) & 1;
+bit_value = (ns >> indexb) & 1;
 
 return (bit_value);
 }
