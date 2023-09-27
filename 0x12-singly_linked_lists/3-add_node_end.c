@@ -7,6 +7,7 @@
  * add_node_end - Inserts a fresh node at the list's tail.
  * @head: Pointer pointing to the initial node of the list.
  * @str: Pointer to the string for insertion into the new node.
+ * @_str_len: calculates or holds the length of a string
  * Return: Pointer to the newly created node.
  **/
 
