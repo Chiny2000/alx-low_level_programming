@@ -14,7 +14,7 @@ int bit_value;
 if (indexb > 63)
 return (-1);
 
-bit_value = (ns>> indexb) & 1;
+bit_value = (ns >> indexb) & 1;
 
 return (bit_value);
 }
