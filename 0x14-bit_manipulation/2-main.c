@@ -1,20 +1,20 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
-* get_bit - returns the value of a bit
-* @n: integer to search
-* @index: index of the bit
-*
-* Return: value of the bit
-*/
-int get_bit(unsigned long int n, unsigned int index)
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-int bit_num;
+	int n;
 
-if (index > 63)
-return (-1);
-
-bit_num = (n >> index) & 1;
-
-return (bit_num);
+	n = get_bit(1024, 10);
+	printf("%d\n", n);
+	n = get_bit(98, 1);
+	printf("%d\n", n);
+	n = get_bit(1024, 0);
+	printf("%d\n", n);
+	return (0);
 }
